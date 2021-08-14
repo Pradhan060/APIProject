@@ -9,7 +9,7 @@ public class DemoDELETErequest {
 	@Test
 	public void checkDelete() {
 		
-		Response resp = RestAssured.delete("http://localhost:3000/students/14");
+		Response resp = RestAssured.delete("http://localhost:3000/student/7");
 		
 		System.out.println("Status Code : " + resp.getStatusCode());
 		System.out.println("Content Type : " + resp.getContentType());

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-25T16:45:56 IST" name="Default suite" finished-at="2021-07-25T16:46:02 IST" duration-ms="5679">
+  <suite name="Default suite" duration-ms="1737" started-at="2021-08-14T10:12:40Z" finished-at="2021-08-14T10:12:42Z">
     <groups>
     </groups>
-    <test started-at="2021-07-25T16:45:56 IST" name="Default test" finished-at="2021-07-25T16:46:02 IST" duration-ms="5679">
-      <class name="com.pratice.restAssured.DempPOSTThroughMap">
-        <test-method signature="checkPostMap()[pri:0, instance:com.pratice.restAssured.DempPOSTThroughMap@1018bde2]" started-at="2021-07-25T16:45:56 IST" name="checkPostMap" finished-at="2021-07-25T16:46:02 IST" duration-ms="5565" status="PASS">
+    <test name="Default test" duration-ms="1737" started-at="2021-08-14T10:12:40Z" finished-at="2021-08-14T10:12:42Z">
+      <class name="com.api.testScripts.FetchAllStudentTest">
+        <test-method status="PASS" signature="configBaseURL()[pri:0, instance:com.api.testScripts.FetchAllStudentTest@55f3ddb1]" name="configBaseURL" is-config="true" duration-ms="595" started-at="2021-08-14T10:12:39Z" finished-at="2021-08-14T10:12:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkPostMap -->
-      </class> <!-- com.pratice.restAssured.DempPOSTThroughMap -->
+        </test-method> <!-- configBaseURL -->
+        <test-method status="PASS" signature="getAllStudent()[pri:0, instance:com.api.testScripts.FetchAllStudentTest@55f3ddb1]" name="getAllStudent" duration-ms="1711" started-at="2021-08-14T10:12:40Z" finished-at="2021-08-14T10:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllStudent -->
+      </class> <!-- com.api.testScripts.FetchAllStudentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
