@@ -15,5 +15,6 @@ public class FetchAllStudentTest extends BaseClass{
 	public void getAllStudent() {
 		Response resp = get(EndPoints.STUDENTAPI);
 		resp.then().log().all();
+		resp.then().assertThat().statusCode(200);
 	}
 }
